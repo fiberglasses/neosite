@@ -10,7 +10,7 @@ body {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1.heading {
+h1 {
   padding:10px;
   border:antiquewhite solid 2px;
   border-radius: 10px;
@@ -21,5 +21,33 @@ img {
   border: 4px,;
   border-color: black;
   border-style: solid;
-  margin: 30px;
+  vertical-align: middle;
+}
+
+h3 {
+  padding:10px;
+  border:antiquewhite solid 2px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+p {
+  padding: 10px;
+  border:antiquewhite solid 2px;
+  background-color: antiquewhite;
+}
+
+div.div1 {
+  float: left;
+}
+
+div.div2 {
+  float: right;
+  width: 20%;
+}
+
+ul {
+  padding: 10px;
+  border:antiquewhite solid 2px;
+  background-color: antiquewhite;
 }
